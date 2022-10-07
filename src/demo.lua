@@ -139,3 +139,13 @@ print(table.concat(result.notwalked,","))
 -- 遍历路径
 -- count:5,from:shanghai,to:ningbo,commands:坐火车;坐火车回;坐汽车回;坐汽车;骑自行车回2,delay:14,
 print(Dumpsteps(result.steps))
+
+m:flashtags()
+-- 打印起效标签
+-- ""
+print(table.concat(m:alltags(),","))
+-- 批量添加标签
+m:addtags({"tag1","tag2","tag3","tag1"})
+-- 打印起效标签
+-- tag3,tag1,tag2
+print(table.concat(m:alltags(),","))
