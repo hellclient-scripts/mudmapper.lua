@@ -13,3 +13,5 @@ https://github.com/jarlyyn/hellclient/blob/master/src/modules/mapper/mapper.go
 * 步长支持
 * 飞行路径
 * 暴力生成动态遍历路径
+
+具体使用方式参考hellclient的mapper文档及demo.lua
